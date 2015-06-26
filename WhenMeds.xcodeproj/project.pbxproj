@@ -14,6 +14,8 @@
 		29A255401B3CB8CB00257AE9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29A2553F1B3CB8CB00257AE9 /* Images.xcassets */; };
 		29A255431B3CB8CB00257AE9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29A255411B3CB8CB00257AE9 /* LaunchScreen.xib */; };
 		29A2554F1B3CB8CB00257AE9 /* WhenMedsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A2554E1B3CB8CB00257AE9 /* WhenMedsTests.swift */; };
+		29E25CC51B3CE443005BF3EA /* Pharmacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E25CC41B3CE443005BF3EA /* Pharmacy.swift */; };
+		29E25CC91B3CF9BA005BF3EA /* Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E25CC81B3CF9BA005BF3EA /* Rx.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		29A255481B3CB8CB00257AE9 /* WhenMedsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhenMedsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29A2554D1B3CB8CB00257AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29A2554E1B3CB8CB00257AE9 /* WhenMedsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhenMedsTests.swift; sourceTree = "<group>"; };
+		29E25CC41B3CE443005BF3EA /* Pharmacy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pharmacy.swift; sourceTree = "<group>"; };
+		29E25CC81B3CF9BA005BF3EA /* Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rx.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 		29A255321B3CB8CB00257AE9 /* WhenMeds */ = {
 			isa = PBXGroup;
 			children = (
+				29E25CC81B3CF9BA005BF3EA /* Rx.swift */,
+				29E25CC41B3CE443005BF3EA /* Pharmacy.swift */,
 				29A255351B3CB8CB00257AE9 /* AppDelegate.swift */,
 				29A2553A1B3CB8CB00257AE9 /* ViewController.swift */,
 				29A2553C1B3CB8CB00257AE9 /* Main.storyboard */,
@@ -216,7 +222,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				29A2553B1B3CB8CB00257AE9 /* ViewController.swift in Sources */,
+				29E25CC51B3CE443005BF3EA /* Pharmacy.swift in Sources */,
 				29A255391B3CB8CB00257AE9 /* WhenMeds.xcdatamodeld in Sources */,
+				29E25CC91B3CF9BA005BF3EA /* Rx.swift in Sources */,
 				29A255361B3CB8CB00257AE9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,6 +423,7 @@
 				29A255541B3CB8CB00257AE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		29A255551B3CB8CB00257AE9 /* Build configuration list for PBXNativeTarget "WhenMedsTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +432,7 @@
 				29A255571B3CB8CB00257AE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

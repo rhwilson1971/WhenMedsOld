@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FC91884B-53E7-4D05-B0D1-36A0BC3D0FAE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>WhenMeds</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>90C7FD15B1BED85A9B992655CD7746A67C105495</key>
+		<string>https://github.com/rhwilson1971/WhenMeds.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>WhenMeds.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>90C7FD15B1BED85A9B992655CD7746A67C105495</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/rhwilson1971/WhenMeds.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>90C7FD15B1BED85A9B992655CD7746A67C105495</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>90C7FD15B1BED85A9B992655CD7746A67C105495</string>
+			<key>IDESourceControlWCCName</key>
+			<string>WhenMeds</string>
+		</dict>
+	</array>
+</dict>
+</plist>
