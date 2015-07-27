@@ -23,15 +23,21 @@ class ViewController: UITableViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        //items.append("Drug1")
-        //items.append("Drug2")
-        
-        
     }
 
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        tableView.reloadData()
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return Int(items.count)
     }
 
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
@@ -40,8 +46,12 @@ class ViewController: UITableViewController {
         
         let cell = tableView.dequeueReusableCellWithIdentifier("RxCellId") as! UITableViewCell
         
+        let index = UInt(row)
+        
+        let item = items.objectAtIndex(index) as! Rx
+        
         // cell.textLabel?.text = items[row].name
-        cell.textLabel?.text = items.objectAtIndex(UInt(row))
+        cell.textLabel?.text = item.name
 
         return cell
     }
