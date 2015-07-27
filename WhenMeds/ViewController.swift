@@ -7,17 +7,26 @@
 //
 
 import UIKit
+import Realm
 
 class ViewController: UITableViewController {
 
-    var items = Array<String>()
+    var items: RLMResults{
+        get {
+            return Rx.allObjects()
+        }
+    }
+    
+    //Array<String>()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        items.append("Drug1")
-        items.append("Drug2")
+        //items.append("Drug1")
+        //items.append("Drug2")
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -31,8 +40,9 @@ class ViewController: UITableViewController {
         
         let cell = tableView.dequeueReusableCellWithIdentifier("RxCellId") as! UITableViewCell
         
-        cell.textLabel?.text = items[row]
-        
+        // cell.textLabel?.text = items[row].name
+        cell.textLabel?.text = items.objectAtIndex(UInt(row))
+
         return cell
     }
 

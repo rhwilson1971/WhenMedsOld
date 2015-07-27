@@ -7,13 +7,14 @@
 //
 
 import Foundation
-
+import Realm
+/*
 enum RxType: Int{
     case Pill=1
     case Spray, Liquid
 }
 
-class Rx {
+class Rx{
     
     
     init(){
@@ -28,4 +29,14 @@ class Rx {
     var refills:Int = 0
     var rxType:RxType
     
+}
+
+ */
+
+class Rx: RLMObject{
+    dynamic var name = ""
+    dynamic var prescription = ""
+    dynamic var dosage = ""
+    dynamic var refills = 0
+    dynamic var rxType = 0
 }

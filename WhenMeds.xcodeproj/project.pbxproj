@@ -59,6 +59,7 @@
 		29A255481B3CB8CB00257AE9 /* WhenMedsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhenMedsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29A2554D1B3CB8CB00257AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29A2554E1B3CB8CB00257AE9 /* WhenMedsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhenMedsTests.swift; sourceTree = "<group>"; };
+		29DA0E1C1B66C38B005B308E /* WhenMeds-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WhenMeds-Bridging-Header.h"; sourceTree = "<group>"; };
 		29E25CC41B3CE443005BF3EA /* Pharmacy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pharmacy.swift; sourceTree = "<group>"; };
 		29E25CC81B3CF9BA005BF3EA /* Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rx.swift; sourceTree = "<group>"; };
 		29E25CCA1B40EF73005BF3EA /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = "realm-swift-0.93.2/ios/Realm.framework"; sourceTree = "<group>"; };
@@ -117,6 +118,7 @@
 				29A255411B3CB8CB00257AE9 /* LaunchScreen.xib */,
 				29A255371B3CB8CB00257AE9 /* WhenMeds.xcdatamodeld */,
 				29A255331B3CB8CB00257AE9 /* Supporting Files */,
+				29DA0E1C1B66C38B005B308E /* WhenMeds-Bridging-Header.h */,
 			);
 			path = WhenMeds;
 			sourceTree = "<group>";
@@ -380,6 +382,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/realm-swift-0.93.2/ios",
@@ -387,6 +390,8 @@
 				INFOPLIST_FILE = WhenMeds/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WhenMeds/WhenMeds-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -394,6 +399,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/realm-swift-0.93.2/ios",
@@ -401,6 +407,7 @@
 				INFOPLIST_FILE = WhenMeds/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WhenMeds/WhenMeds-Bridging-Header.h";
 			};
 			name = Release;
 		};
