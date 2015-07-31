@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		298492171B6BFBC000527482 /* AddRxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298492161B6BFBC000527482 /* AddRxViewController.swift */; };
 		29A255361B3CB8CB00257AE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A255351B3CB8CB00257AE9 /* AppDelegate.swift */; };
 		29A255391B3CB8CB00257AE9 /* WhenMeds.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 29A255371B3CB8CB00257AE9 /* WhenMeds.xcdatamodeld */; };
 		29A2553B1B3CB8CB00257AE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A2553A1B3CB8CB00257AE9 /* ViewController.swift */; };
@@ -48,6 +49,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		298492161B6BFBC000527482 /* AddRxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddRxViewController.swift; sourceTree = "<group>"; };
 		29A255301B3CB8CB00257AE9 /* WhenMeds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhenMeds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29A255341B3CB8CB00257AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29A255351B3CB8CB00257AE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				29A255371B3CB8CB00257AE9 /* WhenMeds.xcdatamodeld */,
 				29A255331B3CB8CB00257AE9 /* Supporting Files */,
 				29DA0E1C1B66C38B005B308E /* WhenMeds-Bridging-Header.h */,
+				298492161B6BFBC000527482 /* AddRxViewController.swift */,
 			);
 			path = WhenMeds;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				298492171B6BFBC000527482 /* AddRxViewController.swift in Sources */,
 				29A2553B1B3CB8CB00257AE9 /* ViewController.swift in Sources */,
 				29E25CC51B3CE443005BF3EA /* Pharmacy.swift in Sources */,
 				29A255391B3CB8CB00257AE9 /* WhenMeds.xcdatamodeld in Sources */,
