@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BED429E1C869B5100B3736B /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BED429C1C869B5100B3736B /* Realm.framework */; };
+		1BED429F1C869B5100B3736B /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1BED429C1C869B5100B3736B /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1BED42A01C869B5100B3736B /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BED429D1C869B5100B3736B /* RealmSwift.framework */; };
+		1BED42A11C869B5100B3736B /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1BED429D1C869B5100B3736B /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		298492171B6BFBC000527482 /* AddRxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298492161B6BFBC000527482 /* AddRxViewController.swift */; };
 		29A255361B3CB8CB00257AE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A255351B3CB8CB00257AE9 /* AppDelegate.swift */; };
-		29A255391B3CB8CB00257AE9 /* WhenMeds.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 29A255371B3CB8CB00257AE9 /* WhenMeds.xcdatamodeld */; };
 		29A2553B1B3CB8CB00257AE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A2553A1B3CB8CB00257AE9 /* ViewController.swift */; };
 		29A2553E1B3CB8CB00257AE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29A2553C1B3CB8CB00257AE9 /* Main.storyboard */; };
 		29A255401B3CB8CB00257AE9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29A2553F1B3CB8CB00257AE9 /* Images.xcassets */; };
@@ -17,10 +20,6 @@
 		29A2554F1B3CB8CB00257AE9 /* WhenMedsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A2554E1B3CB8CB00257AE9 /* WhenMedsTests.swift */; };
 		29E25CC51B3CE443005BF3EA /* Pharmacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E25CC41B3CE443005BF3EA /* Pharmacy.swift */; };
 		29E25CC91B3CF9BA005BF3EA /* Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E25CC81B3CF9BA005BF3EA /* Rx.swift */; };
-		29E25CCB1B40EF73005BF3EA /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E25CCA1B40EF73005BF3EA /* Realm.framework */; };
-		29E25CCC1B40EF73005BF3EA /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 29E25CCA1B40EF73005BF3EA /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		29E25CCF1B40EF81005BF3EA /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E25CCE1B40EF81005BF3EA /* RealmSwift.framework */; };
-		29E25CD01B40EF81005BF3EA /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 29E25CCE1B40EF81005BF3EA /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +39,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				29E25CD01B40EF81005BF3EA /* RealmSwift.framework in Embed Frameworks */,
-				29E25CCC1B40EF73005BF3EA /* Realm.framework in Embed Frameworks */,
+				1BED42A11C869B5100B3736B /* RealmSwift.framework in Embed Frameworks */,
+				1BED429F1C869B5100B3736B /* Realm.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -49,11 +48,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1BED429C1C869B5100B3736B /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = "realm-swift-0.98.3/ios/swift-2.1.1/Realm.framework"; sourceTree = "<group>"; };
+		1BED429D1C869B5100B3736B /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = "realm-swift-0.98.3/ios/swift-2.1.1/RealmSwift.framework"; sourceTree = "<group>"; };
 		298492161B6BFBC000527482 /* AddRxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddRxViewController.swift; sourceTree = "<group>"; };
 		29A255301B3CB8CB00257AE9 /* WhenMeds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhenMeds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29A255341B3CB8CB00257AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29A255351B3CB8CB00257AE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		29A255381B3CB8CB00257AE9 /* WhenMeds.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WhenMeds.xcdatamodel; sourceTree = "<group>"; };
 		29A2553A1B3CB8CB00257AE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		29A2553D1B3CB8CB00257AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		29A2553F1B3CB8CB00257AE9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -64,8 +64,6 @@
 		29DA0E1C1B66C38B005B308E /* WhenMeds-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WhenMeds-Bridging-Header.h"; sourceTree = "<group>"; };
 		29E25CC41B3CE443005BF3EA /* Pharmacy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pharmacy.swift; sourceTree = "<group>"; };
 		29E25CC81B3CF9BA005BF3EA /* Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rx.swift; sourceTree = "<group>"; };
-		29E25CCA1B40EF73005BF3EA /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = "realm-swift-0.93.2/ios/Realm.framework"; sourceTree = "<group>"; };
-		29E25CCE1B40EF81005BF3EA /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = "realm-swift-0.93.2/ios/RealmSwift.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29E25CCF1B40EF81005BF3EA /* RealmSwift.framework in Frameworks */,
-				29E25CCB1B40EF73005BF3EA /* Realm.framework in Frameworks */,
+				1BED42A01C869B5100B3736B /* RealmSwift.framework in Frameworks */,
+				1BED429E1C869B5100B3736B /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,8 +89,8 @@
 		29A255271B3CB8CB00257AE9 = {
 			isa = PBXGroup;
 			children = (
-				29E25CCE1B40EF81005BF3EA /* RealmSwift.framework */,
-				29E25CCA1B40EF73005BF3EA /* Realm.framework */,
+				1BED429C1C869B5100B3736B /* Realm.framework */,
+				1BED429D1C869B5100B3736B /* RealmSwift.framework */,
 				29A255321B3CB8CB00257AE9 /* WhenMeds */,
 				29A2554B1B3CB8CB00257AE9 /* WhenMedsTests */,
 				29A255311B3CB8CB00257AE9 /* Products */,
@@ -118,7 +116,6 @@
 				29A2553C1B3CB8CB00257AE9 /* Main.storyboard */,
 				29A2553F1B3CB8CB00257AE9 /* Images.xcassets */,
 				29A255411B3CB8CB00257AE9 /* LaunchScreen.xib */,
-				29A255371B3CB8CB00257AE9 /* WhenMeds.xcdatamodeld */,
 				29A255331B3CB8CB00257AE9 /* Supporting Files */,
 				29DA0E1C1B66C38B005B308E /* WhenMeds-Bridging-Header.h */,
 				298492161B6BFBC000527482 /* AddRxViewController.swift */,
@@ -162,6 +159,7 @@
 				29A2552D1B3CB8CB00257AE9 /* Frameworks */,
 				29A2552E1B3CB8CB00257AE9 /* Resources */,
 				29E25CCD1B40EF74005BF3EA /* Embed Frameworks */,
+				1BED429B1C869A9200B3736B /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -249,6 +247,22 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1BED429B1C869A9200B3736B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework/strip-frameworks.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		29A2552C1B3CB8CB00257AE9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -257,7 +271,6 @@
 				298492171B6BFBC000527482 /* AddRxViewController.swift in Sources */,
 				29A2553B1B3CB8CB00257AE9 /* ViewController.swift in Sources */,
 				29E25CC51B3CE443005BF3EA /* Pharmacy.swift in Sources */,
-				29A255391B3CB8CB00257AE9 /* WhenMeds.xcdatamodeld in Sources */,
 				29E25CC91B3CF9BA005BF3EA /* Rx.swift in Sources */,
 				29A255361B3CB8CB00257AE9 /* AppDelegate.swift in Sources */,
 			);
@@ -392,7 +405,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/realm-swift-0.93.2/ios",
+					"$(PROJECT_DIR)/realm-swift-0.98.3/ios/swift-2.1.1",
 				);
 				INFOPLIST_FILE = WhenMeds/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -410,7 +423,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/realm-swift-0.93.2/ios",
+					"$(PROJECT_DIR)/realm-swift-0.98.3/ios/swift-2.1.1",
 				);
 				INFOPLIST_FILE = WhenMeds/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -428,6 +441,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "/Users/reuben/Documents/src/iOS/WhenMeds/realm-swift-0.98.3/osx/swift-2.1.1";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -448,6 +462,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "/Users/reuben/Documents/src/iOS/WhenMeds/realm-swift-0.98.3/osx/swift-2.1.1";
 				INFOPLIST_FILE = WhenMedsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wymsii.mobile.ios.$(PRODUCT_NAME:rfc1034identifier)";
@@ -487,19 +502,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		29A255371B3CB8CB00257AE9 /* WhenMeds.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				29A255381B3CB8CB00257AE9 /* WhenMeds.xcdatamodel */,
-			);
-			currentVersion = 29A255381B3CB8CB00257AE9 /* WhenMeds.xcdatamodel */;
-			path = WhenMeds.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 29A255281B3CB8CB00257AE9 /* Project object */;
 }

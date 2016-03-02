@@ -7,7 +7,16 @@
 //
 
 import Foundation
-import Realm
+import RealmSwift
+
+class Rx : Object{
+    
+    
+    dynamic var name = ""
+    dynamic var dosage = ""
+    dynamic var refils = 0
+}
+
 /*
 enum RxType: Int{
     case Pill=1
@@ -31,12 +40,14 @@ class Rx{
     
 }
 
- */
 
-class Rx: RLMObject{
+
+class Rx{
     dynamic var name = ""
     dynamic var prescription = ""
     dynamic var dosage = ""
     dynamic var refills = 0
     dynamic var rxType = 0
 }
+
+*/
