@@ -7,8 +7,9 @@
 //
 
 import Foundation
+import RealmSwift
 
-class Pharamacy {
+class Pharamacy : Object{
    
     var name:String = ""
   

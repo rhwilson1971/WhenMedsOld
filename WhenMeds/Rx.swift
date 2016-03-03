@@ -9,9 +9,21 @@
 import Foundation
 import RealmSwift
 
+
+enum RxForm: Int{
+    case Pill=1
+    case Spray, Liquid, Powder
+}
+
+enum RxType: Int{
+    case Prescription
+    case Otc
+}
+
 class Rx : Object{
     
-    
+    var form:RxForm=RxForm.Pill
+    var type:RxType=RxType.Prescription
     dynamic var name = ""
     dynamic var dosage = ""
     dynamic var refils = 0
